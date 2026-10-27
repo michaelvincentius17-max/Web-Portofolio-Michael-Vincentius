@@ -251,7 +251,9 @@ img {
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  width: 100%;
 }
 
 .brand-logo {
@@ -320,9 +322,10 @@ img {
 }
 
 .nav-actions {
+  position: absolute;
+  right: 1.5rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
 }
 
 .mobile-toggle {
